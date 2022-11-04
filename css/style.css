@@ -83,9 +83,6 @@ footer {
 .header__box {
     display: flex;
 }
-
-                                        /*--------------logo---------------*/
-
 .header__logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -97,17 +94,11 @@ footer {
 .header__web {
     color: var(--primary-bg-color)
 }
-
-/*main-nav*/
-
-                                 /*-------------------header-sitenav---------------------*/
-
 .header__nav {
     
     display: flex;
     align-items: center;
 }
-
 .header__site {
     display: block;
     padding-top: 32px;
@@ -160,9 +151,6 @@ footer {
 .header__sitenav .link.current {
     color: var(--primary-bg-color);
 }
-
-                                        /*------------------header-mail--------------------*/
-
 .header__mail {
     display: flex;
 
@@ -174,7 +162,6 @@ footer {
 .header__mail .list + .list {
     margin-left: 50px;
 }
-
 .header__mail-list:focus {
     color: var(--primary-bg-color);
 }
@@ -199,7 +186,6 @@ footer {
 .header__link:focus {
     color: var(--primary-bg-color);
 }
-
 .header__icon {
     display: inline-block;
     margin-right: 10px;
@@ -265,8 +251,7 @@ footer {
     background-color: #188CE8;
 }
 
-
-                                    /*--------------------преимущества-------------------------*/
+                                    /*--------------------benefits-------------------------*/
 
 .benefits {
     padding-bottom: 0;
@@ -317,10 +302,7 @@ footer {
     color: var(--accent-text-color)
 }
 
-                                          /*--------------работа---------------*/
-
-
-
+                                          /*--------------work---------------*/
 
 .work {
     display: block;
@@ -378,8 +360,7 @@ footer {
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-                                    /*------------------------команда-------------------------*/
-
+                                    /*------------------------team-------------------------*/
 
 .team {
     text-align: center;
@@ -405,7 +386,6 @@ footer {
 .team__item:last-child {
     margin-right: 0;
 }
-
 .team__title {
     margin-bottom: 50px;
     text-align: center;
@@ -443,7 +423,6 @@ footer {
     display: flex;
     justify-content: center;
 }
-
 .team__soc-item {
     margin-right: 10px;
 
@@ -475,10 +454,11 @@ footer {
 .team__soc-link:hover {
     background-color: #2196F3;
 }
-
 .team__soc-link:hover .team__soc-icon {
     fill: #ffffff;
 }
+
+                                       /*------------------clients-----------------*/
 
 .clients {
     margin-bottom: 50px;
@@ -526,9 +506,7 @@ footer {
     border-color: #2196F3;
 }
 
-
-
-                                         /*---------------------подвал----------------------*/
+                                         /*---------------------footer----------------------*/
 
 .footer__web {
     padding-top: 60px;
@@ -569,7 +547,6 @@ footer {
 .footer__address:focus {
     color: var(--primary-bg-color);
 }
-
 .footer__mail {
 
     font-family: 'Roboto';
@@ -584,7 +561,6 @@ footer {
 .footer__mail:focus {
     color: var(--primary-bg-color)
 }
-
 .footer__tel {
     font-family: 'Roboto';
     font-style: normal;
@@ -652,7 +628,6 @@ footer {
 .footer__soc-icon {
     fill: #FFFFFF;
 }
-
 .footer__form-div {
     display: block;
     margin-left: 93px;
@@ -721,9 +696,7 @@ footer {
     margin: 10px;
 }
 
-
-
-                                    /*------------------------portfolio-hero-----------------------*/
+                                    /*------------------------portfolio-----------------------*/
 
 .visually-hidden {
     position: absolute;
@@ -808,9 +781,6 @@ footer {
 .portfolio__soc-img:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-                                        /*-----------------overlay-------------------*/
-
 .portfolio__overlay {
     position: relative;
     overflow: hidden;
@@ -839,10 +809,6 @@ footer {
 .portfolio__soc-img:hover .portfolio__overlay-text {
     transform: translateY(0);
 }
-
-                                       /*---------------------porfolio-text--------------------*/
-
-
 .portfolio__text {
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
@@ -870,8 +836,8 @@ footer {
     color: var(--accent-text-color);
 }
 
-
                                        /*---------------------/*modal----------------------*/
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -923,8 +889,7 @@ footer {
     fill:  #188CE8;
 }
 
-
-                               /*---------------modal-form--------------*/
+                                             /*---------------modal-form--------------*/
 
 .form__text {
     margin-bottom: 12px;
@@ -1003,12 +968,6 @@ footer {
 .form__textarea:focus {
     border-color: var(--primary-bg-color);
 }
-
-
-
-                          /*------------checkbox------------*/
-
-
 .form__checkbox-modal {
     display: flex;
     align-items: center;
@@ -1052,10 +1011,6 @@ footer {
 .form__checkbox-input:checked + .form__checkbox-label .form__checkbox-icon {
     fill: var(--title-text-color);
 }
-
-
-                       /* --------------submit-button-------------- */
-
 .form__submit-button {
     display: block;
     padding: 10px 52px;
