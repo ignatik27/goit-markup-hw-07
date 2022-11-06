@@ -22,10 +22,10 @@
     margin-right: 30px;
 
     cursor: pointer;
-}
 
-.clients__item:last-child {
-    margin-right: 0;
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
 .clients__icon {
@@ -43,9 +43,10 @@
     border-radius: 4px;
     color: #AFB1B8;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+            color: #2196F3;
+            border-color: #2196F3;
+        }
 }
 
-.clients__soc-list:hover {
-    color: #2196F3;
-    border-color: #2196F3;
-}

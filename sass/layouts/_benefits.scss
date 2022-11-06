@@ -15,10 +15,10 @@
 
 .benefits__list .benefits__item {
     margin-right: 30px;
-}
 
-.benefits__list .benefits__item:last-child {
-    margin-right: 0;
+     & .benefits__item:last-child {
+            margin-right: 0;
+        }
 }
 
 .benefits__icon {

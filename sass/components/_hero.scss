@@ -52,9 +52,9 @@
     border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
-}
 
-.hero__button:hover,
-.hero__button:focus {
-    background-color: #188CE8;
+    &:hover,
+    &:focus {
+            background-color: #188CE8;
+        }
 }
