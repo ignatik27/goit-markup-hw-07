@@ -308,15 +308,15 @@ footer {
   padding-bottom: 94px;
 }
 
-.team-soc-list {
+.team__soc-list {
   list-style: none;
 }
 
-.clients-list {
+.clients__list {
   list-style: none;
 }
 
-.portfolio-soc-img {
+.portfolio__soc-img {
   text-decoration: none;
 }
 
